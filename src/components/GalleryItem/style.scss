@@ -1,0 +1,45 @@
+
+.gallery_item{
+    margin: 30px 0px 30px 30px;
+
+    img{
+        width: 282.02px;
+        height: 398.72px;
+    }
+    
+    h2{
+        font-size: 34px;
+        margin: 10px 0px;
+    }
+
+    h4{
+        font-size: 22px;
+        margin: 10px 0px;
+        color: #656565;
+    }
+
+    p{
+        font-size: 29px;
+        color: #656565;
+        margin: 10px 0px;
+    }
+
+    .gallery_photo{
+        position: relative;
+    }
+
+    .best_seller{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px 15px;
+        text-align: center;
+        background-color: white;
+        font-size: 15px; 
+    }
+
+    .add_to_cart{
+        position: absolute;
+        bottom: 0;
+    }
+}

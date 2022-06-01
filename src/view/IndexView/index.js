@@ -1,10 +1,16 @@
 import React from 'react';
+import { Header } from '../../components/Header';
+import { PhotoDay } from '../../components/PhotoDay';
+import { Gallery } from '../../components/Gallery';
 import './style.scss';
 
 export const IndexView = () => {
+
     return (
         <>
-            <h2 className="landing_title">GeekHubs view </h2>
+           <Header/>
+           <PhotoDay/>
+           <Gallery/>
         </>
     )
 }

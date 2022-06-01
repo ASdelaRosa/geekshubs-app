@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+
+.button{
+  height: 55px;
+  margin-top: 10px;
+  
+  font-size: 23px;
+  line-height: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+.clear_button{
+  background-color: white;
+  border: 3px solid black;
+}
+
+.dark_button{
+  background-color:black;
+  color: white;
+}

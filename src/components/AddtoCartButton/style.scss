@@ -1,0 +1,19 @@
+.add_to_cart_button{
+    width: 282.02px;
+    height: 47px;
+    left: 1115px;
+    top: 182px;
+    color: white;
+    background: #000000;
+    border: none;
+}
+
+@media screen and (max-width:850px){
+    .add_to_cart_button{
+        display: block;
+    }
+}
+
+.add_to_cart_button:hover{
+    cursor: pointer
+}

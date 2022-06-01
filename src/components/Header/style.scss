@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    height: 124px;
+    border-bottom: 4px solid #E4E4E4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart{
+    height: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.cart_button{
+    border: none;
+    background-color: unset;
+}
+
+.bejamas_logo{
+    height: 25px;
+    margin: auto 0;
+}
+
+@media screen and (max-width: 850px){
+    .header{
+        justify-content: space-between;
+    }
+}
